@@ -7,17 +7,17 @@ export default function Navbar() {
   return (
     <nav>
       <ul className="nav-links">
-        <li className={pathname === '/setsiri.github.io/' ? 'active' : ''}>
-          <Link href="/setsiri.github.io/">Home</Link>
+        <li className={pathname === '/' ? 'active' : ''}>
+          <Link href="/">Home</Link>
         </li>
-        <li className={pathname === '/setsiri.github.io/about' ? 'active' : ''}>
-          <Link href="/setsiri.github.io/about">About</Link>
+        <li className={pathname === '/about' ? 'active' : ''}>
+          <Link href="/about">About</Link>
         </li>
-        <li className={pathname === '/setsiri.github.io/portfolio' ? 'active' : ''}>
-          <Link href="/setsiri.github.io/portfolio">Portfolio</Link>
+        <li className={pathname === '/portfolio' ? 'active' : ''}>
+          <Link href="/portfolio">Portfolio</Link>
         </li>
-        <li className={pathname === '/setsiri.github.io/resume' ? 'active' : ''}>
-          <Link href="/setsiri.github.io/resume">Resume</Link>
+        <li className={pathname === '/resume' ? 'active' : ''}>
+          <Link href="/resume">Resume</Link>
         </li>
       </ul>
     </nav>
