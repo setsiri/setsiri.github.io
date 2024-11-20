@@ -7,17 +7,17 @@ export default function Navbar() {
   return (
     <nav>
       <ul className="nav-links">
-        <li className={pathname === '/' ? 'active' : ''}>
-          <Link href="/">Home</Link>
+        <li className={pathname === '' ? 'active' : ''}>
+          <Link href="">Home</Link>
         </li>
-        <li className={pathname === '/about' ? 'active' : ''}>
-          <Link href="/about">About</Link>
+        <li className={pathname === 'about' ? 'active' : ''}>
+          <Link href="about">About</Link>
         </li>
-        <li className={pathname === '/portfolio' ? 'active' : ''}>
-          <Link href="/portfolio">Portfolio</Link>
+        <li className={pathname === 'portfolio' ? 'active' : ''}>
+          <Link href="portfolio">Portfolio</Link>
         </li>
-        <li className={pathname === '/resume' ? 'active' : ''}>
-          <Link href="/resume">Resume</Link>
+        <li className={pathname === 'resume' ? 'active' : ''}>
+          <Link href="resume">Resume</Link>
         </li>
       </ul>
     </nav>
