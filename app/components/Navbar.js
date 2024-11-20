@@ -7,8 +7,8 @@ export default function Navbar() {
   return (
     <nav>
       <ul className="nav-links">
-        <li className={pathname === '/' ? 'active' : ''}>
-          <Link href="/">Home</Link>
+        <li className={pathname === 'setsiri.github.io' ? 'active' : ''}>
+          <Link href="setsiri.github.io">Home</Link>
         </li>
         <li className={pathname === 'about' ? 'active' : ''}>
           <Link href="about">About</Link>
